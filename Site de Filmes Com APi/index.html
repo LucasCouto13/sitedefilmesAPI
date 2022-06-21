@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="js/app.js">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>SiteFlix - API</title>
+</head>
+
+<body class="body">
+    <!---Cabeçalho-->
+    <header class="header">
+        <div class="container">
+            <div class="nav container-nav">
+                <!---Logo-->
+                <a href="index.html" class="logo">
+                    Site<span>Flix</span>
+                </a>
+                <!---Opções-->
+                <a href="index.html" class="nav-link">
+                    <i class='bx bx-home'></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="search.html" class="nav-link">
+                    <i class='bx bx-search-alt-2'></i>
+                    <span class="nav-link-title">Pesquisar</span>
+                </a>
+                <!---Usuário-->
+                <a href="#" class="user">
+                    <img src="img/user-circle-solid-24.png" alt="" class="user-img">
+                </a>
+            </div>
+        </div>
+    </header>
+    <!---Main-->
+    <main id="main">
+        <!---Imagem central-->
+        <div class="container">
+            <section id="home">
+                <img src="img/O_Revenant_2016_Leonardo_DiCaprio_HD_Wallpaper_19 Papel de parede__1680x1050[10wallpaper.com].jpg"
+                    alt="">
+                <div class="texto-central">
+                    <h1 class="texto-principal"><b>Relembre os melhores atores</b></h1>
+                    <p><i>Confira os mais falados no mundo</i></p>
+                    <a href="atores.html" class="watch-btn">
+                        <i class='bx bx-plus-medical'></i>
+                        <span>Ver mais</span>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <!---Cards-->
+        <div class="container main-id">
+            <div class="row">
+                <div class="col-10">
+                    <div class="main-center">
+                        <a href="populares.html"class="ver_mais"><h2 class="popular-texto"><i class='bx bxs-hot'></i>Populares</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Lançamentos-->
+        <div class="container main-id">
+            <div class="row">
+                <div class="col-10">
+                    <div class="main-center">
+                        <a href="lancamentos.html" class="ver_mais"> <h2 class="popular-texto"><i class='bx bxs-tv'></i>Lançamentos</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Recomendações-->
+        <div class="container main-id">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-center">
+                        <a href="proxLancamentos.html" class="ver_mais"><h2 class="popular-texto"><i class='bx bxs-like'></i>Próximos lançamentos</h2></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <footer class="rodapé">
+        <p class="texto-rodape">
+            Direitos reservados a PUC MINAS - 2022
+        </p>
+    </footer>
+</body>
+
+</html>
