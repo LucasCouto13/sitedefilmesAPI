@@ -25,7 +25,7 @@ function mostrarFilmes(data)
   
   data.forEach(filme => 
   {
-      const {title, poster_path, vote_average, overview,release_date} = filme;
+      const {title, poster_path, vote_average, overview,release_date,id} = filme;
       const filmeEl = document.createElement('div');
       filmeEl.classList.add('filme');
       filmeEl.innerHTML =
